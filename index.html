@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3f489b8bfa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fab fa-instagram"></i>
+                Instagram
+            </a>
+            <div class="botones_nav">
+                <button type="button" class="btn btn-success me-2" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Create new post
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-floating">
+                                    <div class="form-floating">
+                                        <textarea class="form-control" placeholder="Leave a comment here"
+                                            id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2"></label>
+                                    </div>
+                                </div>
+                                <div class="icons">
+                                    <button type="button" class="border btn btn-light btn-sm">
+                                        <i class="fas fa-camera"></i>
+                                    </button>
+                                    <button type="button" class="border btn btn-light btn-sm">
+                                        <i class="border fas fa-map-marker-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-success">Publish</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn bg-light dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item active" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Log out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fab fa-buromobelexperte"></i></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+                class="fas fa-square"></i></button>
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div id="container">
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            <img class="img-fluid" src="https://c.wallhere.com/photos/9d/ad/1700x1135_px_beach_Caribbean_clouds_island_landscape_nature_sand-1039372.jpg!d">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="https://ticotimes.net/wp-content/uploads/2014/12/Tamal-1.jpg">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="http://www.datsuncarsandparts.com/data/archive/img/1059125747.jpeg">
+                        </div>
+            
+                    </div>
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            <img class="img-fluid" src="https://c.wallhere.com/photos/b3/1a/1700x1135_px_807744-1777309.jpg!d">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="https://c.wallhere.com/photos/fd/67/nature_landscape_beach_palm_trees_island_white_sand_tropical-107417.jpg!d">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="https://www.griffner.com/wp-content/uploads/2018/01/Griffner_Musterhaus_Square_Salzburg_Au%C3%9Fen-1700x1135.jpg">
+                        </div>
+                    </div>
+            
+                    <div class="row row-cols-3">
+                        <div class="col">
+                            <img class="img-fluid" src="https://www.airport-data.com/images/aircraft/001/245/001245695.jpg">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="https://i2.wp.com/goodsgn.com/wp-content/uploads/2019/03/Wonderful-Itallian-House-Architcture-Source-architizer.com_.jpg?fit=1700%2C1135&ssl=1">
+                        </div>
+                        <div class="col">
+                            <img class="img-fluid" src="https://c.wallhere.com/photos/f3/c1/Bora_Bora_resort_beach_tropical_French_Polynesia_mountains_palm_trees_sea-143449.jpg!d">
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                
+            </div>
+          </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
