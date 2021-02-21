@@ -4,12 +4,27 @@
 .card{
     margin: 40px auto;
     width: 600px;
+    background-color: #FAF8F9;
 }
 .header-card small{
-    margin: 0%;
-    padding: 0%;
-    overflow: auto;
+    float: right;
+    margin: 0;
+    font-size: 17px;
 }
 .muro{
     background: grey;
+}
+.header-card{
+    padding: .75rem 15px;
+}
+.titulo{
+    display: inline-block;
+}
+.body-card{
+    padding: 15px;
+}
+.comentario{
+    color: #CDCCCC;
+    display: inline-block;
+    width: 88%;
 }

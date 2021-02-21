@@ -19,56 +19,55 @@
                 Instagram
             </a>
             <div class="botones_nav">
-                <button type="button" class="btn btn-success me-2" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Create new post
-                </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel"></h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="form-floating">
+                <div class="dropdown">
+                    <button class="btn btn-success me-2" type="button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Create new post</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a comment here"
-                                            id="floatingTextarea2" style="height: 100px"></textarea>
-                                        <label for="floatingTextarea2"></label>
+                                        <div class="form-floating">
+                                            <textarea class="form-control" placeholder="Leave a comment here"
+                                                id="floatingTextarea2" style="height: 100px"></textarea>
+                                            <label for="floatingTextarea2"></label>
+                                        </div>
+                                    </div>
+                                    <div class="icons">
+                                        <button type="button" class="border btn btn-light btn-sm">
+                                            <i class="fas fa-camera"></i>
+                                        </button>
+                                        <button type="button" class="border btn btn-light btn-sm">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </button>
                                     </div>
                                 </div>
-                                <div class="icons">
-                                    <button type="button" class="border btn btn-light btn-sm">
-                                        <i class="fas fa-camera"></i>
-                                    </button>
-                                    <button type="button" class="border btn btn-light btn-sm">
-                                        <i class="border fas fa-map-marker-alt"></i>
-                                    </button>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-success">Publish</button>
                                 </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn btn-success">Publish</button>
                             </div>
                         </div>
                     </div>
+                    <button class="btn bg-light dropdown-toggle" href="#" role="button" id="dropdownMenuButton"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fas fa-cog"></i></button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Log out</a></li>
+                    </ul>
                 </div>
-                <button class="btn bg-light dropdown-toggle" type="button" id="dropdownMenuButton2"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fas fa-cog"></i>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item active" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Log out</a></li>
-                </ul>
             </div>
         </div>
     </nav>
@@ -76,10 +75,10 @@
     <div>
         <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-              <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fab fa-buromobelexperte"></i></button>
+              <button class="nav-link btn-light active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fab fa-buromobelexperte"></i></button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+              <button class="nav-link btn-light" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
                 class="fas fa-square"></i></button>
             </li>
           </ul>
@@ -103,10 +102,12 @@
                             <img class="img-fluid" src="https://c.wallhere.com/photos/b3/1a/1700x1135_px_807744-1777309.jpg!d">
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="https://c.wallhere.com/photos/fd/67/nature_landscape_beach_palm_trees_island_white_sand_tropical-107417.jpg!d">
+                            <img class="img-fluid" src="https://www.griffner.com/wp-content/uploads/2018/01/Griffner_Musterhaus_Square_Salzburg_Au%C3%9Fen-1700x1135.jpg">
                         </div>
                         <div class="col">
-                            <img class="img-fluid" src="https://www.griffner.com/wp-content/uploads/2018/01/Griffner_Musterhaus_Square_Salzburg_Au%C3%9Fen-1700x1135.jpg">
+                            <video width="434" height="285" muted autoplay>
+                                <source src="https://assets.breatheco.de/apis/video/why-pair-programming" alt="">
+                            </video>
                         </div>
                     </div>
             
@@ -121,11 +122,120 @@
                             <img class="img-fluid" src="https://c.wallhere.com/photos/f3/c1/Bora_Bora_resort_beach_tropical_French_Polynesia_mountains_palm_trees_sea-143449.jpg!d">
                         </div>
                     </div>
-            
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                
+                <div class="card">
+                    <div class="header-card">
+                        <h4 class="titulo">My First Photo</h4>
+                        <small class="text-muted">12/14</small>
+                    </div>
+                    <img src="https://c.wallhere.com/photos/f3/c1/Bora_Bora_resort_beach_tropical_French_Polynesia_mountains_palm_trees_sea-143449.jpg!d"
+                        class="card-img-top" alt="...">
+                    <div class="body-card">
+                        <h5 class="card-title">23 Likes</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit
+                            ornare,
+                            interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <input type="text" class="form-control comentario" id="recipient-name"
+                            value="Comment...">
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header-card">
+                        <h4 class="titulo">My First Photo</h4>
+                        <small class="text-muted">12/14</small>
+                    </div>
+                    <img src="https://c.wallhere.com/photos/9d/ad/1700x1135_px_beach_Caribbean_clouds_island_landscape_nature_sand-1039372.jpg!d"
+                        class="card-img-top" alt="...">
+                    <div class="body-card">
+                        <h5 class="card-title">23 Likes</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit
+                            ornare,
+                            interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <input type="text" class="form-control comentario" id="recipient-name"
+                            value="Comment...">
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header-card">
+                        <h4 class="titulo">My First Photo</h4>
+                        <small class="text-muted">12/14</small>
+                    </div>
+                    <img src="http://www.datsuncarsandparts.com/data/archive/img/1059125747.jpeg"
+                        class="card-img-top" alt="...">
+                    <div class="body-card">
+                        <h5 class="card-title">23 Likes</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit
+                            ornare,
+                            interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <input type="text" class="form-control comentario" id="recipient-name"
+                            value="Comment...">
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header-card">
+                        <h4 class="titulo">My First Photo</h4>
+                        <small class="text-muted">12/14</small>
+                    </div>
+                    <img src="https://www.griffner.com/wp-content/uploads/2018/01/Griffner_Musterhaus_Square_Salzburg_Au%C3%9Fen-1700x1135.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="body-card">
+                        <h5 class="card-title">23 Likes</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit
+                            ornare,
+                            interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <input type="text" class="form-control comentario" id="recipient-name"
+                            value="Comment...">
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header-card">
+                        <h4 class="titulo">My First Video</h4>
+                        <small class="text-muted">12/14</small>
+                    </div>
+                    <video class="w-100" muted autoplay>
+                            <source src="https://assets.breatheco.de/apis/video/why-pair-programming" class="w-100" alt="">
+                    </video>
+                    <div class="body-card">
+                        <h5 class="card-title">23 Likes</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque non elit
+                            ornare,
+                            interdum libero id, ultrices sem. Duis molestie elementum ipsum et eleifend. Nunc porta.</p>
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="far fa-heart"></i>
+                        </button>
+                        <input type="text" class="form-control comentario" id="recipient-name"
+                            value="Comment...">
+                        <button type="button" class="btn btn-light btn-sm">
+                            <i class="fas fa-ellipsis-v"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
           </div>
     </div>
